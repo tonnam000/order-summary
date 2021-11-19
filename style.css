@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./images/pattern-background-desktop.svg");
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 15px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+    max-width: 450px;
+    width: 90%;
+    height: 670px;
+    margin: 10rem auto;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px hsla(245, 75%, 52%, 0.336);
+}
+
+.container .card-img img {
+    width: 100%;
+    border-radius:20px 20px 0 0 ;
+}
+
+.center {
+    text-align: center;
+}
+
+.center h1 {
+    padding: 20px;
+    color: hsl(223, 47%, 23%);
+}
+
+.center p {
+    color: hsl(224, 23%, 55%);
+}
+
+.paid {
+    width: 350px;
+    height: 90px;
+    border-radius: 10px;
+    margin: 2rem auto 0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: hsl(225, 100%, 98%);
+}
+
+.paid p {
+    margin-left: -4rem;
+}
+
+.paid a:hover {    
+    text-decoration: none;
+    color: hsl(245, 66%, 63%);
+}
+
+.card-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-button .button {
+    margin-top: 2rem;
+    padding: 1rem 7rem;
+    border-radius: 10px;
+    background: hsl(245, 75%, 52%);
+    color: #fff;
+    box-shadow: 5px 5px 20px 0px hsla(245, 75%, 52%, 0.377);
+    cursor: pointer;
+}
+
+.card-button .button:hover {
+    background: hsl(245, 66%, 63%) ;
+}
+
+.card-button a {
+    text-decoration: none;
+    margin-top: 1.5rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.card-button a:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+    font-size: 1.6rem; 
+    text-align: center;
+    margin: -6rem 0;
+ }
+ 
+.attribution a {
+     color: hsl(228, 45%, 44%);
+     text-decoration: none;
+ }
